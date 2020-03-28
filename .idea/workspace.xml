@@ -2,6 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="83f9fa3d-d8cf-4648-b220-e50456a9b8e6" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/Rectangle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -17,6 +20,11 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MavenImportPreferences">
@@ -37,9 +45,19 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="settings.editor.selected.configurable" value="MTConfigurable" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.LSPDemo">
+    <configuration name="Demo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Demo" />
+      <module name="SolidDesignPrinciples" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Journal" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Journal" />
       <module name="SolidDesignPrinciples" />
@@ -47,8 +65,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="LSPDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="LSPDemo" />
+      <module name="SolidDesignPrinciples" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.LSPDemo" />
+        <item itemvalue="Application.Demo" />
         <item itemvalue="Application.Journal" />
       </list>
     </recent_temporary>
@@ -63,41 +90,88 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1584971172461</updated>
-      <workItem from="1584971177517" duration="4814000" />
+      <workItem from="1584971177517" duration="10152000" />
+      <workItem from="1585290873362" duration="6370000" />
     </task>
+    <task id="LOCAL-00001" summary="Single Responsibility Principle icin bir Demo.class sinifi eklendi.">
+      <created>1585402210878</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1585402210878</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Single Responsibility Principle icin bir Demo.class sinifi eklendi." />
+    <option name="LAST_COMMIT_MESSAGE" value="Single Responsibility Principle icin bir Demo.class sinifi eklendi." />
+  </component>
   <component name="WindowStateProjectService">
-    <state x="457" y="153" key="#com.intellij.ide.util.MemberChooser" timestamp="1584992696274">
+    <state x="1973" y="-84" key="#Project_Structure" timestamp="1585290792386">
+      <screen x="1440" y="-148" width="2560" height="1080" />
+    </state>
+    <state x="1973" y="-84" key="#Project_Structure/0.0.1440.900/1440.-148.2560.1080@1440.-148.2560.1080" timestamp="1585290792386" />
+    <state x="300" y="70" key="#Project_Structure/0.23.1440.798@0.23.1440.798" timestamp="1585253053358" />
+    <state x="457" y="153" key="#com.intellij.ide.util.MemberChooser" timestamp="1585390982044">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="457" y="153" key="#com.intellij.ide.util.MemberChooser/0.0.1440.900@0.0.1440.900" timestamp="1584992696274" />
-    <state width="1398" height="226" key="GridCell.Tab.0.bottom" timestamp="1584995370930">
+    <state x="457" y="153" key="#com.intellij.ide.util.MemberChooser/0.0.1440.900@0.0.1440.900" timestamp="1585390982044" />
+    <state x="280" y="23" key="#com.intellij.openapi.keymap.impl.ui.EditKeymapsDialog" timestamp="1585252737821">
+      <screen x="0" y="23" width="1440" height="798" />
+    </state>
+    <state x="280" y="23" key="#com.intellij.openapi.keymap.impl.ui.EditKeymapsDialog/0.23.1440.798@0.23.1440.798" timestamp="1585252737821" />
+    <state x="281" y="0" key="CommitChangelistDialog2" timestamp="1585402210562">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="226" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1584995370930" />
-    <state width="1398" height="226" key="GridCell.Tab.0.center" timestamp="1584995370929">
+    <state x="281" y="0" key="CommitChangelistDialog2/0.0.1440.900@0.0.1440.900" timestamp="1585402210562" />
+    <state width="1398" height="225" key="GridCell.Tab.0.bottom" timestamp="1585403945920">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="226" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1584995370929" />
-    <state width="1398" height="226" key="GridCell.Tab.0.left" timestamp="1584995370928">
+    <state width="2518" height="285" key="GridCell.Tab.0.bottom/0.0.1440.900/1440.-148.2560.1080@1440.-148.2560.1080" timestamp="1585290927626" />
+    <state width="1398" height="225" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1585403945920" />
+    <state width="1398" height="225" key="GridCell.Tab.0.center" timestamp="1585403945916">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="226" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1584995370928" />
-    <state width="1398" height="226" key="GridCell.Tab.0.right" timestamp="1584995370930">
+    <state width="2518" height="285" key="GridCell.Tab.0.center/0.0.1440.900/1440.-148.2560.1080@1440.-148.2560.1080" timestamp="1585290927624" />
+    <state width="1398" height="225" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1585403945916" />
+    <state width="1398" height="225" key="GridCell.Tab.0.left" timestamp="1585403945915">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="226" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1584995370930" />
+    <state width="2518" height="285" key="GridCell.Tab.0.left/0.0.1440.900/1440.-148.2560.1080@1440.-148.2560.1080" timestamp="1585290927623" />
+    <state width="1398" height="225" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1585403945915" />
+    <state width="1398" height="225" key="GridCell.Tab.0.right" timestamp="1585403945917">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="2518" height="285" key="GridCell.Tab.0.right/0.0.1440.900/1440.-148.2560.1080@1440.-148.2560.1080" timestamp="1585290927625" />
+    <state width="1398" height="225" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1585403945917" />
+    <state x="201" y="23" width="1024" height="798" key="SettingsEditor" timestamp="1585253239356">
+      <screen x="0" y="23" width="1440" height="798" />
+    </state>
+    <state x="201" y="23" width="1024" height="798" key="SettingsEditor/0.23.1440.798@0.23.1440.798" timestamp="1585253239356" />
+    <state x="201" y="44" key="SettingsEditor/0.23.1440.801@0.23.1440.801" timestamp="1585251453650" />
+    <state x="320" y="186" key="Vcs.Push.Dialog.v2" timestamp="1585402213214">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="320" y="186" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1585402213214" />
     <state x="380" y="257" key="com.intellij.ide.util.TipDialog" timestamp="1584971192570">
       <screen x="0" y="23" width="1440" height="804" />
     </state>
     <state x="380" y="257" key="com.intellij.ide.util.TipDialog/0.23.1440.804/1440.-125.2560.1057@0.23.1440.804" timestamp="1584971192570" />
+    <state x="377" y="230" key="git4idea.merge.GitPullDialog" timestamp="1585403393889">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="377" y="230" key="git4idea.merge.GitPullDialog/0.0.1440.900@0.0.1440.900" timestamp="1585403393889" />
     <state x="494" y="299" key="git4idea.rebase.GitRebaseDialog" timestamp="1584996436895">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="494" y="299" key="git4idea.rebase.GitRebaseDialog/0.0.1440.900@0.0.1440.900" timestamp="1584996436895" />
+    <state x="365" y="145" width="670" height="676" key="search.everywhere.popup" timestamp="1585252579382">
+      <screen x="0" y="23" width="1440" height="798" />
+    </state>
+    <state x="365" y="145" width="670" height="676" key="search.everywhere.popup/0.23.1440.798@0.23.1440.798" timestamp="1585252579382" />
   </component>
 </project>
