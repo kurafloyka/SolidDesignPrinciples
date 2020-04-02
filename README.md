@@ -2,11 +2,11 @@
 
 SOLID are a set of principles formulated by Robert C.Martin that are meant to guide developers to design and implement software that is easily maintainable, clear, and scalable. In other words, following these principles helps us to write a more solid software. These five principles are:
 
-The Single Responsibility Principle: A class should have one, and only one, reason to change.
-The Open Closed Principle: Software entities should be open to extension but closed to modification.
-The Liskov Substitution Principle: Derived classes must be substitutable for their base classes.
-The Interface Segregation Principle: Make fine-grained interfaces that are client specific.
-The Dependency Inversion Principle: Depend on abstraction, not on concretion.
+- **The Single Responsibility Principle**: A class should have one, and only one, reason to change.
+- **The Open Closed Principle**: Software entities should be open to extension but closed to modification.
+- **The Liskov Substitution Principle**: Derived classes must be substitutable for their base classes.
+- **The Interface Segregation Principle**: Make fine-grained interfaces that are client specific.
+- **The Dependency Inversion Principl**e: Depend on abstraction, not on concretion.
 
 
 S is for Single Responsibility Principle
@@ -41,3 +41,19 @@ D is for Dependency Inversion
 The Dependency Inversion Principle (DIP) encourages you to write code that depends upon abstractions rather than upon concrete details. You can recognize this in the code you read by looking for a class or method that takes something generic like "Stream" and performs operations on it, as opposed to instantiating a specific Filestream or Stringstream or whatever. This gives the code in question a lot more flexibility -- you can swap in anything that conforms to the Stream abstraction and it will still work.
 
 To visualize this in your day to day, go down to your local store and pay for something with a credit card. The clerk doesn't examine your card and get out the "Visa Machine" after seeing that your card is a Visa. He just takes your card, whatever it is, and swipes it. Both you and the clerk depend on the credit card abstraction without worrying about specifics.
+
+
+As a result;
+
+- Single Responsibility Principle
+    - A class should only have one reason to change.
+    - Seperation of concerns - different classes handling different, indepedent tasks/problems.
+- Open-Closed Principle
+    - Classes should be open for extension but closed for modification.
+- Liskov Substition Principle
+    - You should be able to substitude a base type for subtype.
+- Interface Segregation Principle
+    - Don't put too much into ana interface; split into separate interfaces.
+    - YAGNI - You Ain't Going to Need It.
+- Dependency Inversion Principle 
+    - High-level modules should not depend upon low-level ones; use abstractions.

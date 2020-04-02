@@ -2,10 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="83f9fa3d-d8cf-4648-b220-e50456a9b8e6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/Rectangle.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Person.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Demo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Demo.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -15,6 +16,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="JUnit5 Test Class" />
         <option value="Class" />
       </list>
     </option>
@@ -45,12 +47,29 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
-  <component name="RunManager" selected="Application.LSPDemo">
+  <component name="RecentsManager">
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.DIPDemo">
+    <configuration name="DIPDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="DIPDemo" />
+      <module name="SolidDesignPrinciples" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Demo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Demo" />
       <module name="SolidDesignPrinciples" />
@@ -72,10 +91,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Test" />
+      <module name="SolidDesignPrinciples" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.LSPDemo" />
+        <item itemvalue="Application.DIPDemo" />
         <item itemvalue="Application.Demo" />
+        <item itemvalue="Application.Test" />
+        <item itemvalue="Application.LSPDemo" />
         <item itemvalue="Application.Journal" />
       </list>
     </recent_temporary>
@@ -91,7 +119,7 @@
       <option name="presentableId" value="Default" />
       <updated>1584971172461</updated>
       <workItem from="1584971177517" duration="10152000" />
-      <workItem from="1585290873362" duration="6370000" />
+      <workItem from="1585290873362" duration="17674000" />
     </task>
     <task id="LOCAL-00001" summary="Single Responsibility Principle icin bir Demo.class sinifi eklendi.">
       <created>1585402210878</created>
@@ -100,7 +128,14 @@
       <option name="project" value="LOCAL" />
       <updated>1585402210878</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Liskov Substitution Principle (LSP) icin bir Rectangle.java sinifi eklendi.">
+      <created>1585404486232</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1585404486232</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -108,7 +143,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Single Responsibility Principle icin bir Demo.class sinifi eklendi." />
-    <option name="LAST_COMMIT_MESSAGE" value="Single Responsibility Principle icin bir Demo.class sinifi eklendi." />
+    <MESSAGE value="Liskov Substitution Principle (LSP) icin bir Rectangle.java sinifi eklendi." />
+    <option name="LAST_COMMIT_MESSAGE" value="Liskov Substitution Principle (LSP) icin bir Rectangle.java sinifi eklendi." />
   </component>
   <component name="WindowStateProjectService">
     <state x="1973" y="-84" key="#Project_Structure" timestamp="1585290792386">
@@ -116,54 +152,93 @@
     </state>
     <state x="1973" y="-84" key="#Project_Structure/0.0.1440.900/1440.-148.2560.1080@1440.-148.2560.1080" timestamp="1585290792386" />
     <state x="300" y="70" key="#Project_Structure/0.23.1440.798@0.23.1440.798" timestamp="1585253053358" />
-    <state x="457" y="153" key="#com.intellij.ide.util.MemberChooser" timestamp="1585390982044">
-      <screen x="0" y="0" width="1440" height="900" />
+    <state x="2252" y="36" key="#com.intellij.ide.util.MemberChooser" timestamp="1585850082383">
+      <screen x="1440" y="-148" width="2560" height="1080" />
     </state>
+    <state x="2252" y="36" key="#com.intellij.ide.util.MemberChooser/0.0.1440.900/1440.-148.2560.1080@1440.-148.2560.1080" timestamp="1585850082383" />
     <state x="457" y="153" key="#com.intellij.ide.util.MemberChooser/0.0.1440.900@0.0.1440.900" timestamp="1585390982044" />
     <state x="280" y="23" key="#com.intellij.openapi.keymap.impl.ui.EditKeymapsDialog" timestamp="1585252737821">
       <screen x="0" y="23" width="1440" height="798" />
     </state>
     <state x="280" y="23" key="#com.intellij.openapi.keymap.impl.ui.EditKeymapsDialog/0.23.1440.798@0.23.1440.798" timestamp="1585252737821" />
-    <state x="281" y="0" key="CommitChangelistDialog2" timestamp="1585402210562">
+    <state x="281" y="0" key="CommitChangelistDialog2" timestamp="1585404486069">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="281" y="0" key="CommitChangelistDialog2/0.0.1440.900@0.0.1440.900" timestamp="1585402210562" />
-    <state width="1398" height="225" key="GridCell.Tab.0.bottom" timestamp="1585403945920">
-      <screen x="0" y="0" width="1440" height="900" />
+    <state x="281" y="0" key="CommitChangelistDialog2/0.0.1440.900@0.0.1440.900" timestamp="1585404486069" />
+    <state width="2518" height="225" key="GridCell.Tab.0.bottom" timestamp="1585856767852">
+      <screen x="1440" y="-148" width="2560" height="1080" />
     </state>
-    <state width="2518" height="285" key="GridCell.Tab.0.bottom/0.0.1440.900/1440.-148.2560.1080@1440.-148.2560.1080" timestamp="1585290927626" />
+    <state width="2518" height="225" key="GridCell.Tab.0.bottom/0.0.1440.900/1440.-148.2560.1080@1440.-148.2560.1080" timestamp="1585856767852" />
     <state width="1398" height="225" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1585403945920" />
-    <state width="1398" height="225" key="GridCell.Tab.0.center" timestamp="1585403945916">
-      <screen x="0" y="0" width="1440" height="900" />
+    <state width="2518" height="225" key="GridCell.Tab.0.center" timestamp="1585856767851">
+      <screen x="1440" y="-148" width="2560" height="1080" />
     </state>
-    <state width="2518" height="285" key="GridCell.Tab.0.center/0.0.1440.900/1440.-148.2560.1080@1440.-148.2560.1080" timestamp="1585290927624" />
+    <state width="2518" height="225" key="GridCell.Tab.0.center/0.0.1440.900/1440.-148.2560.1080@1440.-148.2560.1080" timestamp="1585856767851" />
     <state width="1398" height="225" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1585403945916" />
-    <state width="1398" height="225" key="GridCell.Tab.0.left" timestamp="1585403945915">
-      <screen x="0" y="0" width="1440" height="900" />
+    <state width="2518" height="225" key="GridCell.Tab.0.left" timestamp="1585856767850">
+      <screen x="1440" y="-148" width="2560" height="1080" />
     </state>
-    <state width="2518" height="285" key="GridCell.Tab.0.left/0.0.1440.900/1440.-148.2560.1080@1440.-148.2560.1080" timestamp="1585290927623" />
+    <state width="2518" height="225" key="GridCell.Tab.0.left/0.0.1440.900/1440.-148.2560.1080@1440.-148.2560.1080" timestamp="1585856767850" />
     <state width="1398" height="225" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1585403945915" />
-    <state width="1398" height="225" key="GridCell.Tab.0.right" timestamp="1585403945917">
+    <state width="2518" height="225" key="GridCell.Tab.0.right" timestamp="1585856767851">
+      <screen x="1440" y="-148" width="2560" height="1080" />
+    </state>
+    <state width="2518" height="225" key="GridCell.Tab.0.right/0.0.1440.900/1440.-148.2560.1080@1440.-148.2560.1080" timestamp="1585856767851" />
+    <state width="1398" height="225" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1585403945917" />
+    <state width="2518" height="356" key="GridCell.Tab.1.bottom" timestamp="1585813098315">
+      <screen x="1440" y="-148" width="2560" height="1080" />
+    </state>
+    <state width="2518" height="356" key="GridCell.Tab.1.bottom/0.0.1440.900/1440.-148.2560.1080@1440.-148.2560.1080" timestamp="1585813098315" />
+    <state width="2518" height="356" key="GridCell.Tab.1.center" timestamp="1585813098313">
+      <screen x="1440" y="-148" width="2560" height="1080" />
+    </state>
+    <state width="2518" height="356" key="GridCell.Tab.1.center/0.0.1440.900/1440.-148.2560.1080@1440.-148.2560.1080" timestamp="1585813098313" />
+    <state width="2518" height="356" key="GridCell.Tab.1.left" timestamp="1585813098313">
+      <screen x="1440" y="-148" width="2560" height="1080" />
+    </state>
+    <state width="2518" height="356" key="GridCell.Tab.1.left/0.0.1440.900/1440.-148.2560.1080@1440.-148.2560.1080" timestamp="1585813098313" />
+    <state width="2518" height="356" key="GridCell.Tab.1.right" timestamp="1585813098314">
+      <screen x="1440" y="-148" width="2560" height="1080" />
+    </state>
+    <state width="2518" height="356" key="GridCell.Tab.1.right/0.0.1440.900/1440.-148.2560.1080@1440.-148.2560.1080" timestamp="1585813098314" />
+    <state x="2258" y="54" key="Maven.ArtifactSearchDialog" timestamp="1585856696284">
+      <screen x="1440" y="-148" width="2560" height="1080" />
+    </state>
+    <state x="2258" y="54" key="Maven.ArtifactSearchDialog/0.0.1440.900/1440.-148.2560.1080@1440.-148.2560.1080" timestamp="1585856696284" />
+    <state x="332" y="70" key="NewModule_or_Project.wizard" timestamp="1585679523983">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="2518" height="285" key="GridCell.Tab.0.right/0.0.1440.900/1440.-148.2560.1080@1440.-148.2560.1080" timestamp="1585290927625" />
-    <state width="1398" height="225" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1585403945917" />
+    <state x="332" y="70" key="NewModule_or_Project.wizard/0.0.1440.900@0.0.1440.900" timestamp="1585679523983" />
     <state x="201" y="23" width="1024" height="798" key="SettingsEditor" timestamp="1585253239356">
       <screen x="0" y="23" width="1440" height="798" />
     </state>
     <state x="201" y="23" width="1024" height="798" key="SettingsEditor/0.23.1440.798@0.23.1440.798" timestamp="1585253239356" />
     <state x="201" y="44" key="SettingsEditor/0.23.1440.801@0.23.1440.801" timestamp="1585251453650" />
-    <state x="320" y="186" key="Vcs.Push.Dialog.v2" timestamp="1585402213214">
+    <state width="889" height="534" key="SwitcherDM" timestamp="1585847799937">
+      <screen x="1440" y="-148" width="2560" height="1080" />
+    </state>
+    <state width="889" height="534" key="SwitcherDM/0.0.1440.900/1440.-148.2560.1080@1440.-148.2560.1080" timestamp="1585847799937" />
+    <state width="500" height="445" key="SwitcherDM/0.0.1440.900@0.0.1440.900" timestamp="1585677794829" />
+    <state x="320" y="186" key="Vcs.Push.Dialog.v2" timestamp="1585404487736">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="320" y="186" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1585402213214" />
+    <state x="320" y="186" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1585404487736" />
     <state x="380" y="257" key="com.intellij.ide.util.TipDialog" timestamp="1584971192570">
       <screen x="0" y="23" width="1440" height="804" />
     </state>
     <state x="380" y="257" key="com.intellij.ide.util.TipDialog/0.23.1440.804/1440.-125.2560.1057@0.23.1440.804" timestamp="1584971192570" />
-    <state x="377" y="230" key="git4idea.merge.GitPullDialog" timestamp="1585403393889">
-      <screen x="0" y="0" width="1440" height="900" />
+    <state x="2499" y="99" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1585813346571">
+      <screen x="1440" y="-148" width="2560" height="1080" />
     </state>
+    <state x="2499" y="99" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.0.1440.900/1440.-148.2560.1080@1440.-148.2560.1080" timestamp="1585813346571" />
+    <state x="2390" y="3" width="803" height="777" key="find.popup" timestamp="1585814960900">
+      <screen x="1440" y="-148" width="2560" height="1080" />
+    </state>
+    <state x="2390" y="3" width="803" height="777" key="find.popup/0.0.1440.900/1440.-148.2560.1080@1440.-148.2560.1080" timestamp="1585814960900" />
+    <state x="2110" y="128" key="git4idea.merge.GitPullDialog" timestamp="1585847119258">
+      <screen x="1440" y="-148" width="2560" height="1080" />
+    </state>
+    <state x="2110" y="128" key="git4idea.merge.GitPullDialog/0.0.1440.900/1440.-148.2560.1080@1440.-148.2560.1080" timestamp="1585847119258" />
     <state x="377" y="230" key="git4idea.merge.GitPullDialog/0.0.1440.900@0.0.1440.900" timestamp="1585403393889" />
     <state x="494" y="299" key="git4idea.rebase.GitRebaseDialog" timestamp="1584996436895">
       <screen x="0" y="0" width="1440" height="900" />
@@ -173,5 +248,16 @@
       <screen x="0" y="23" width="1440" height="798" />
     </state>
     <state x="365" y="145" width="670" height="676" key="search.everywhere.popup/0.23.1440.798@0.23.1440.798" timestamp="1585252579382" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/Rectangle.java</url>
+          <line>95</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
